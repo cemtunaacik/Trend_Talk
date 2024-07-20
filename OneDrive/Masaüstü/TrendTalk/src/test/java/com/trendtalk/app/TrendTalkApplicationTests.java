@@ -1,0 +1,13 @@
+package com.trendtalk.app;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class TrendTalkApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}

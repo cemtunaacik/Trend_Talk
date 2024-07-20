@@ -1,0 +1,23 @@
+server:
+  address: 10.244.46.246
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/trendtalk_db
+    username: postgres
+    password: 979784
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+
+file:
+  upload-dir: ./uploads
